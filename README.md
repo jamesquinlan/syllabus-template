@@ -3,7 +3,7 @@
 
 ## Course and Instructor Settings
 
-In the settings.tex file, edit the department, course, and instructor parameters.
+In the `settings.tex` file, edit the department, course, and instructor parameters.
 
 ```tex
 % DEPARTMENT
@@ -29,15 +29,18 @@ In the settings.tex file, edit the department, course, and instructor parameters
 \def\officehours{8:00 \ayem - 9:00 \peem}
 ```
 
+## Local Files
+
+Edit files as appropriate in the local directory to meet your needs.
+
 ## Logo
 
-Replace assests/logo.png with your logo of (approximate) size 130 x 20.  
+Replace `assests/logo.png` with your logo of (approximate) size 130 x 20.  
 If logo is not that size, you may either resize or scale in the code,
 
 ```
 \title{\includegraphics[scale=1.0]{assets/logo.png}}
 ```  
-
 
 
 ## Handout Class
