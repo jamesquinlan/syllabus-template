@@ -3,6 +3,9 @@
 
 ## Course and Instructor Settings
 
+In the settings.tex file, edit the department, course, and instructor parameters.
+
+```
 % DEPARTMENT
 \def\dept{Department of Mathematics and Computer Science}
 
@@ -24,7 +27,7 @@
 \def\phone{(213) 789 - 1234}
 \def\email{homer.simpson@springfield.edu}
 \def\officehours{8:00 \ayem - 9:00 \peem}
-
+```
 
 ## Logo
 
