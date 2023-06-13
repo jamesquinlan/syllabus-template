@@ -5,7 +5,7 @@
 
 In the settings.tex file, edit the department, course, and instructor parameters.
 
-```
+```tex
 % DEPARTMENT
 \def\dept{Department of Mathematics and Computer Science}
 
