@@ -1,5 +1,7 @@
 # Course Syllabus Template
 
+Syllabus template in LaTeX.
+
 
 ## Course and Instructor Settings
 
