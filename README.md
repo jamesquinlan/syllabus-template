@@ -53,7 +53,12 @@ If logo is not that size, you may either resize or scale in the code,
 ```  
 
 ## Bullet Items
-Itemizations such as learning outcomes are designated with a [blue square](assets/blue_bullet.png).
+Itemizations such as learning outcomes are designated with a [blue square](assets/blue_bullet.png).  To return to default bullet item (black circle), comment out line 65 in `syllabus.tex`, specifically, 
+
+```
+\renewcommand{\labelitemi}{\includegraphics[]{\assets/blue_bullet.png}}
+```
+
 
 ## Handout Class
 
