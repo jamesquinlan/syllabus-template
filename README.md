@@ -5,7 +5,7 @@ Syllabus template in LaTeX.
 
 ## Course and Instructor Settings
 
-In the [configs.tex](configs.tex) file, edit the course and instructor parameters.  The course parameters include semester/year, course number, course name, credit hours, call number, prerequisites, class day(s)/time/location, and textbook. The instructor parameters are name, contact information, office location, and hours.   
+In the [configs.tex](configs.tex) file, edit the course and instructor parameters.  The course parameters include semester/year, course number, course name, credit hours, call number, prerequisites, class day(s)/time/location, and textbook. The instructor parameters are name, contact information, office location, and hours.   In particular, 
 
 ```tex
 % DEPARTMENT
@@ -34,9 +34,14 @@ In the [configs.tex](configs.tex) file, edit the course and instructor parameter
 There are optional settings controlled by logical switches for sections to include (or not), such as specific course policies or important dates.  More sections can be added to [syllabus.tex](syllabus.tex) as needed.  
 
 
+## Global Directory
+Files in the global directory are university-wide policies or files common to *all* your syllabi (assuming >1 teaching load). Add files as needed and include them in [syllabus.tex](syllabus.tex).
+
+
 ## Local Files
 
-Edit files (except [courseinfo.tex](local/courseinfo.tex)) as appropriate in the local directory to meet your needs.  You may also need to add files as needed, then include them in the [syllabus.tex](syllabus.tex) file.   
+Edit files (except [courseinfo.tex](local/courseinfo.tex)) as appropriate in the local directory to meet your needs.  You may also add files as needed in the local directory, then include them in the [syllabus.tex](syllabus.tex) file.   
+
 
 ## Logo
 
@@ -47,6 +52,8 @@ If logo is not that size, you may either resize or scale in the code,
 \title{\includegraphics[scale=1.0]{assets/logo.png}}
 ```  
 
+## Bullet Items
+Itemizations such as learning outcomes are designated with a [blue square](assets/blue_bullet.png).
 
 ## Handout Class
 
