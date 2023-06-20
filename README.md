@@ -5,7 +5,7 @@ Syllabus template in LaTeX.
 
 ## Course and Instructor Settings
 
-In the `settings.tex` file, edit the department, course, and instructor parameters.
+In the [configs.tex](configs.tex) file, edit the course and instructor parameters.  The course parameters include semester/year, course number, course name, credit hours, call number, prerequisites, class day(s)/time/location, and textbook. The instructor parameters are name, contact information, office location, and hours.   
 
 ```tex
 % DEPARTMENT
