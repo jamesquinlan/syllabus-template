@@ -31,9 +31,12 @@ In the `settings.tex` file, edit the department, course, and instructor paramete
 \def\officehours{8:00 \ayem - 9:00 \peem}
 ```
 
+There are optional settings controlled by logical switches for sections to include (or not), such as specific course policies or important dates.  More sections can be added to [syllabus.tex](syllabus.tex) as needed.  
+
+
 ## Local Files
 
-Edit files as appropriate in the local directory to meet your needs.
+Edit files (except [courseinfo.tex](local/courseinfo.tex)) as appropriate in the local directory to meet your needs.  You may also need to add files as needed, then include them in the [syllabus.tex](syllabus.tex) file.   
 
 ## Logo
 
