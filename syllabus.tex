@@ -8,7 +8,7 @@
 
 % DIRECTORIES
 \def\local{./local}
-\def\common{./global}
+\def\global{./global}
 \def\assets{./assets}
 
 % SETTINGS
@@ -66,11 +66,8 @@
 
 
 % LOGO and HEADER 
-\title{\includegraphics[scale=1.0]{assets/logo.png}}
-\input{\common/header}
-%
-%
-%
+  \title{\includegraphics[scale=1.0]{assets/logo.png}}
+  \input{\global/header}
 
 
 % DOCUMENT
@@ -81,78 +78,78 @@
 
 % ----------------------------------------------------- %
 % COURSE INFO
-\subsection*{Course Information}
-\vspace{0ex}%
-\noindent\parbox{0.5\textwidth}{%
-\noindent\begin{tabular}{@{}ll}
-\input{\local/courseinfo}
-\end{tabular}}
-\vspace{2ex}\hrule\vspace{2ex}
+  \subsection*{Course Information}
+  \vspace{0ex}%
+  \noindent\parbox{0.5\textwidth}{%
+  \noindent\begin{tabular}{@{}ll}
+  \input{\local/courseinfo}
+  \end{tabular}}
+  \vspace{2ex}\hrule\vspace{2ex}
 
 
 % ----------------------------------------------------- %
 % NSTRUCTOR INFO
-\subsection*{Instructor Information}
-\noindent\parbox{0.5\textwidth}{%
-\noindent\begin{tabular}{@{}ll}
-\input{\common/instructor.tex}
-\end{tabular}}
-\vspace{2ex}\hrule\vspace{2ex}
+  \subsection*{Instructor Information}
+  \noindent\parbox{0.5\textwidth}{%
+  \noindent\begin{tabular}{@{}ll}
+  \input{\global/instructor.tex}
+  \end{tabular}}
+  \vspace{2ex}\hrule\vspace{2ex}
 
  
 % ----------------------------------------------------- %
 % COURSE DESCRIPTION
-\subsection*{Course description} 
-\input{\local/description}
-\vspace{2ex} \hrule\vspace{2ex}
+  \subsection*{Course description} 
+  \input{\local/description}
+  \vspace{2ex} \hrule\vspace{2ex}
  
  
 % ----------------------------------------------------- %
 % COURSE TOPICS
-\subsection*{Topics} 
-\input{\local/topics}
-\vspace{2ex} \hrule\vspace{2ex}
+  \subsection*{Topics} 
+  \input{\local/topics}
+  \vspace{2ex} \hrule\vspace{2ex}
  
 
 % ----------------------------------------------------- %
 % LEARNING OUTCOMES
-\subsection*{Learning Outcomes}
-\input{\local/learningoutcomes}
-\vspace{2ex}\hrule\vspace{2ex}
+  \subsection*{Learning Outcomes}
+  \input{\local/learningoutcomes}
+  \vspace{2ex}\hrule\vspace{2ex}
 
  
 % ----------------------------------------------------- %
 % EQUIPMENT
 % https://sites.udel.edu/computing-purchases/personal-specs/
-\subsection*{Essential Equipment}
-\input{\local/equipment}
-\vspace{2ex}\hrule\vspace{2ex}
+  \subsection*{Essential Equipment}
+  \input{\local/equipment}
+  \vspace{2ex}\hrule\vspace{2ex}
 
    
 % ----------------------------------------------------- %
 % Grade Evaluation
-\subsection*{Course Evaluation and Grading Policies} 
-\input{\local/evaluation.tex}
-\vspace{2ex}\hrule\vspace{2ex}
+  \subsection*{Course Evaluation and Grading Policies} 
+  \input{\local/evaluation.tex}
+  \vspace{2ex}\hrule\vspace{2ex}
 
 
 % ----------------------------------------------------- %
 \if\importantdates1
-	{
-	    \subsection*{Topic Schedule}
- 	    \input{\local/schedule}
-	     \vspace{2ex}\hrule\vspace{2ex}
-	}
+{
+  \subsection*{Topic Schedule}
+  \input{\local/schedule}
+  \vspace{2ex}\hrule\vspace{2ex}
+}
 \fi
 
 
 % ----------------------------------------------------- %
 \if\policies1
-	{
-	    \subsection*{Policies, Support Services, and Other Information}
- 	    \input{\local/policies}
-	     \vspace{2ex}\hrule\vspace{2ex}
-	}
+{
+  \subsection*{Policies, Support Services, and Other Information}
+  \input{\local/policies}
+  \vspace{2ex}\hrule\vspace{2ex}
+}
 \fi
  
 \end{document} % /END DOCUMENT
