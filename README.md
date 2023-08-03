@@ -35,7 +35,7 @@ There are optional settings controlled by logical switches for sections to inclu
 
 
 ## Global Directory
-Files in the global directory are university-wide policies or files common to *all* your syllabi (assuming >1 teaching load). Add files as needed and include them in [syllabus.tex](syllabus.tex).
+Files in the `common` (global) directory are university-wide policies or files common to *all* your syllabi (assuming >1 teaching load). Add files as needed and include them in [syllabus.tex](syllabus.tex).  Note: directory named `global` gives errors in TeXLive 2020.
 
 
 ## Local Files
