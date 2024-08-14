@@ -35,7 +35,7 @@ There are optional settings controlled by logical switches for sections to inclu
 
 
 ## Global Directory
-Files in the `common` (global) directory are university-wide policies or files common to *all* your syllabi (assuming >1 teaching load). Add files as needed and include them in [syllabus.tex](syllabus.tex).  Note: directory named `global` gives errors in TeXLive 2020.
+Files in the `common` (global) directory are university-wide policies or files common to *all* your syllabi (assuming >1 teaching load). Add files as needed and include them in [syllabus.tex](syllabus.tex).  Note: The directory named `global` gives errors in TeXLive 2020.
 
 
 ## Local Files
@@ -46,14 +46,14 @@ Edit files (except [courseinfo.tex](local/courseinfo.tex)) as appropriate in the
 ## Logo
 
 Replace `assests/logo.png` with your logo of (approximate) size 130 x 20.  
-If logo is not that size, you may either resize or scale in the code,
+If the logo is not that size, you may either resize or scale in the code,
 
 ```
 \title{\includegraphics[scale=1.0]{assets/logo.png}}
 ```  
 
 ## Bullet Items
-Itemizations such as learning outcomes are designated with a [blue square](assets/blue_bullet.png).  To return to default bullet item (black circle), comment out line #65 in `syllabus.tex`, specifically, 
+Itemizations such as learning outcomes are designated with a [blue square](assets/blue_bullet.png).  To return to the default bullet item (black circle), comment out line #65 in `syllabus.tex`, specifically, 
 
 ```
 \renewcommand{\labelitemi}{\includegraphics[]{\assets/blue_bullet.png}}
